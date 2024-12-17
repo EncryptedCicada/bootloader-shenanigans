@@ -2,9 +2,14 @@
 
 ## Reading
 
-1. An article about the qualcomm firmware and boot process: [Link](https://lineageos.org/engineering/Qualcomm-Firmware/)
-2. A blog series by Inoki mentioning the difference between Aboot and XBL/PBL: [Link](https://blog.inoki.cc/2021/10/17/android-bootloader-analysis-aboot-en/)
-3. A blog series by Inoki following up on the XBL/PBL analysis: [1](https://blog.inoki.cc/2021/10/18/android-bootloader-analysis-abl-1-en/index.html) [2](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-2-en/) [3](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-3-en/)
+1. An article about the qualcomm firmware and boot process: [[Link](https://lineageos.org/engineering/Qualcomm-Firmware/)]
+2. A blog series by Inoki mentioning the difference between Aboot and XBL/PBL: [[Link](https://blog.inoki.cc/2021/10/17/android-bootloader-analysis-aboot-en/)]
+3. A blog series by Inoki following up on the XBL/PBL analysis: [[1](https://blog.inoki.cc/2021/10/18/android-bootloader-analysis-abl-1-en/index.html)] [[2](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-2-en/)] [[3](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-3-en/)]
+
+## Resources
+
+1. ABL [[Source code](https://git.codelinaro.org/clo/la/abl/tianocore/edk2)]
+2. Qualcomm Flash Loader V2 [[Link](https://xdaforums.com/t/qualcomm-flash-loader-v2.4668538/)]
 
 ## A Conversation with ChatGPT
 
