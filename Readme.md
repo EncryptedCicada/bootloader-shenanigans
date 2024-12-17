@@ -2,10 +2,11 @@
 
 ## Reading
 
-1. An article about the qualcomm firmware and boot process: [[Link](https://lineageos.org/engineering/Qualcomm-Firmware/)]
-2. A blog series by Inoki mentioning the difference between Aboot and XBL/PBL: [[Link](https://blog.inoki.cc/2021/10/17/android-bootloader-analysis-aboot-en/)]
-3. A blog series by Inoki following up on the XBL/PBL analysis: [[1](https://blog.inoki.cc/2021/10/18/android-bootloader-analysis-abl-1-en/index.html)] [[2](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-2-en/)] [[3](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-3-en/)]
+1. An article about the qualcomm firmware and boot process [[Link](https://lineageos.org/engineering/Qualcomm-Firmware/)]
+2. A blog series by Inoki mentioning the difference between Aboot and XBL/PBL [[Link](https://blog.inoki.cc/2021/10/17/android-bootloader-analysis-aboot-en/)]
+3. A blog series by Inoki following up on the XBL/PBL analysis [[1](https://blog.inoki.cc/2021/10/18/android-bootloader-analysis-abl-1-en/index.html)] [[2](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-2-en/)] [[3](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-3-en/)]
 4. Qualcomm EDL and Firehose [[Repo link](https://github.com/alephsecurity/firehorse)]
+5. What is Secure boot and S-On/Off? [[XDA Comment](https://xdaforums.com/t/q-what-is-that-secure-boot-at-bootloader-and-how-could-i-turn-off.2305555/post-70243370)]
 
 ## Resources
 
