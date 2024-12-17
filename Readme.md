@@ -1,15 +1,22 @@
-# Bootloader: Research
+# About the Android Bootloader and Boot Process
 
-## Conversation with ChatGPT
+## Reading
+
+1. An article about the qualcomm firmware and boot process: [Link](https://lineageos.org/engineering/Qualcomm-Firmware/)
+2. A blog series by Inoki mentioning the difference between Aboot and XBL/PBL: [Link](https://blog.inoki.cc/2021/10/17/android-bootloader-analysis-aboot-en/)
+3. A blog series by Inoki following up on the XBL/PBL analysis: [1](https://blog.inoki.cc/2021/10/18/android-bootloader-analysis-abl-1-en/index.html) [2](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-2-en/) [3](https://blog.inoki.cc/2024/04/20/android-bootloader-analysis-abl-3-en/)
+
+## A Conversation with ChatGPT
 
 > [!CAUTION]
-> This is a conversation with ChatGPT about my bootloader queries. Information here might not be factually correct.
+> This section is a conversation with ChatGPT about my bootloader queries. Information here might not be factually correct.
 > 
 > _You have been warned._
 
 I have got a crude understanding of XBL and ABL in android now. I did this to understand the contemporary android boot process of modern 2018- qcom devices. I have a few doubts. Can you help me clear them out? They are as follows:
 
 ### Question 1
+
 What is the secure-boot state in bootloader and what implications does it have with respect to modifications 
 possible to the XBL or ABL?
 
@@ -38,6 +45,7 @@ In short, with secure boot enabled, XBL and ABL cannot be modified or replaced u
 
 
 ### Question 2
+
 I have a manufacturer provided OTA zip which has abl.elf and a patch file named xbl.elf.p. If my hunch is correct about secure-boot requiring proper signing to boot a new abl or xbl, this could mean that when the manufacturer updates the abl, it has to patch the xbl with the new checksum or key to somehow verify the abl. Is this assumption correct? If yes, how can I see what changes are there in the xbl.elf.p file?
 
 <details>
@@ -91,6 +99,7 @@ Analyzing a patch file like `xbl.elf.p` is tricky but possible using reverse eng
 </details>
 
 ### Question 3
+
 So, if I am to flash a self built unsigned abl, the device will get bricked right? Even if I am to sign it with a private key of my own, it will get bricked because it does not match the Root Key, am I right?
 
 <details>
@@ -142,6 +151,7 @@ Without these conditions, modifying or replacing ABL or XBL on a secure device i
 </details>
 
 ### Question 4
+
 From your explanation it seems that secure-boot can be turned off by unlocking the bootloader right?
 
 But, I have an HTC U12 Life device, of which I have already unlocked a bootloader and am able to boot custom recoveries, but the bootloader information displayed when entering it with the keycombination Vol Down + PWR still shows Secure boot:- yes. Does this mean the secure boot is not relaxed?
