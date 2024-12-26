@@ -8,6 +8,7 @@
 4. Qualcomm EDL and Firehose [[Repo link](https://github.com/alephsecurity/firehorse)]
 5. What is Secure boot and S-On/Off? [[XDA Comment](https://xdaforums.com/t/q-what-is-that-secure-boot-at-bootloader-and-how-could-i-turn-off.2305555/post-70243370)]
 6. Secure boot and image authentication (by Qualcomm) [[PDF](https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/secure-boot-image-authentication_11.30.16.pdf)]
+7. Qualcomm abl (Android bootloader) packing/signing | XDA Forums [[Link](https://xdaforums.com/t/qualcomm-abl-android-bootloader-packing-signing.4473815/)]
 
 ## Resources
 
